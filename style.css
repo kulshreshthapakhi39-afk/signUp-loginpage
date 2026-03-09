@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ body{
 }
 
 
-.home button{
+.home button {
     padding: 12px 25px;
     margin: 10px;
     border: none;
@@ -23,17 +23,17 @@ body{
     cursor: pointer;
 }
 
-.form-container{
+.form-container {
     display: none;
     width: 800px;
     height: 450px;
     background: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.left{
+.left {
     width: 50%;
     background: #f3f3f3;
     display: flex;
@@ -44,7 +44,7 @@ body{
     padding: 30px;
 }
 
-.right{
+.right {
     width: 50%;
     background: black;
     color: white;
@@ -54,12 +54,12 @@ body{
     padding: 40px;
 }
 
-.form-container{
+.form-container {
     display: none;
     flex-direction: row;
 }
 
-input{
+input {
     margin: 10px 0;
     padding: 10px;
     border: none;
@@ -68,7 +68,7 @@ input{
     color: white;
 }
 
-.right button{
+.right button {
     margin-top: 10PX;
     padding: 10px;
     border: none;
@@ -77,11 +77,11 @@ input{
     cursor: pointer;
 }
 
-span{
+span {
     color: #b36cff;
     cursor: pointer;
 }
 
-.home{
+.home {
     text-align: center;
 }
