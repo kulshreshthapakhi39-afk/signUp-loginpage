@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Login Signup UI</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="main">
-            <div class="home" id="home">
-                <button onclick="showSignup()">Sign Up</button>
-                <button onclick="showLogin()">Log In</button>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Signup UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="home" id="home">
+            <button onclick="showSignup()">Sign Up</button>
+            <button onclick="showLogin()">Log In</button>
+        </div>
+
+        <div class="form-container" id="Signup">
+            <div class="left">
+                <h2>Join Us Today</h2>
+                <p>create your account and start your journey.</p>
             </div>
 
-            <div class="form-container" id="Signup">
-                <div class="left">
-                    <h2>Join Us Today</h2>
-                    <p>create your account and start your journey.</p>
-                </div>
+            <div class="right">
+                <h2>Create Account</h2>
 
-                <div class="right">
-                    <h2>Create Account</h2>
-
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email Address">
-                    <input type="password" placeholder="Enter Your password">
-                    <input type="password" placeholder="Confirm password">
-                    <button>Create Account</button>
-                    <p>Already have an account? <span onclick="showLogin()">Log In</span></p>
-                </div>
-            </div>
-            
-
-            <div class="form-container" id="Login">
-                <div class="left">
-                    <h2>Welcome Back!</h2>
-                    <p>Sign In to countinue your journey.</p>
-                </div>
-
-                <div class="right">
-                    <h2>Log In</h2>
-                    <input type="email" placeholder="Email Address">
-                    <input type="password" placeholder="Enter Your password">
-                    <button>Log In</button>
-                    <p>Don't have an account? <span onclick="showSignup()">Sign Up</span></p>
-                </div>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email Address">
+                <input type="password" placeholder="Enter Your password">
+                <input type="password" placeholder="Confirm password">
+                <button>Create Account</button>
+                <p>Already have an account? <span onclick="showLogin()">Log In</span></p>
             </div>
         </div>
 
-        <script src="script.js"></script>
-    </body>
+        <div class="form-container" id="Login">
+            <div class="left">
+                <h2>Welcome Back!</h2>
+                <p>Sign In to countinue your journey.</p>
+            </div>
+
+            <div class="right">
+                <h2>Log In</h2>
+                <input type="email" placeholder="Email Address">
+                <input type="password" placeholder="Enter Your password">
+                <button>Log In</button>
+                <p>Don't have an account? <span onclick="showSignup()">Sign Up</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
