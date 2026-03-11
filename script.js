@@ -1,12 +1,20 @@
 function showSignup() {
     document.getElementById("home").style.display = "none";
-    document.getElementById("login").style.display = "none";
-    document.getElementById("signup").style.display = "flex";
+    document.getElementById("Login").style.display = "none";
+    document.getElementById("Signup").style.display = "flex";
 }
 
 
 function showLogin() {
     document.getElementById("home").style.display = "none";
-    document.getElementById("signup").style.display = "none";
-    document.getElementById("login").style.display = "flex"
+    document.getElementById("Signup").style.display = "none";
+    document.getElementById("Login").style.display = "flex"
+}
+
+function createAccount(){
+    alert("Account Created Successfully");
+}
+
+function loginUser(){
+    alert("Login Successfully");
 }

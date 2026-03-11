@@ -86,3 +86,11 @@ span {
 .home {
     text-align: center;
 }
+
+#signup {
+    display: none;
+}
+
+#login {
+    display: none;
+}
