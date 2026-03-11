@@ -4,6 +4,7 @@ function showSignup() {
     document.getElementById("signup").style.display = "flex";
 }
 
+
 function showLogin() {
     document.getElementById("home").style.display = "none";
     document.getElementById("signup").style.display = "none";
