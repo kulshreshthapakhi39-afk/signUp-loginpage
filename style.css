@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(120deg, #ff0066, #4a00e0);
+    background: linear-gradient(120deg, #013812c3, #022a5592);
 }
 
 
@@ -42,6 +42,8 @@ body {
     align-items: center;
     text-align: center;
     padding: 30px;
+    background-size: cover;
+    background-position: center;
 }
 
 .right {
@@ -73,7 +75,7 @@ input {
     margin-top: 10PX;
     padding: 10px;
     border: none;
-    background: linear-gradient(90deg, #9b27ff, #ff00aa);
+    background: linear-gradient(90deg, #6fc6ee, #602a4e);
     color: white;
     cursor: pointer;
 }
